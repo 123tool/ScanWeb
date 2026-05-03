@@ -1,0 +1,7 @@
+admin/
+login/
+.env
+.git/
+config.php
+backup/
+db.sql
