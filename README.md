@@ -25,3 +25,27 @@ sudo apt update && sudo apt install python3 python3-pip -y
 **Termux :**
 ```
 pkg update && pkg install python -y
+```
+### 2. Clone
+```
+git clone https://github.com/123tool/ScanWeb.git
+cd ScanWeb
+```
+### 3. Dependency
+```
+pip install -r requirements.txt
+```
+### 4. Jalankan
+```
+python main.py
+```
+**Contoh Input :**
+​Target URL : 
+```
+https://website-kamu.com
+```
+​Setelah proses selesai, silakan cek folder reports/ untuk melihat detail laporan audit keamanan dalam format .txt.
+
+## Disclaimer
+
+**​Tool ini dibuat murni untuk tujuan edukasi dan keamanan legal (White Hat). Segala bentuk penyalahgunaan tool ini untuk merusak atau mengakses sistem tanpa izin adalah tanggung jawab penuh pengguna. Selalu pastikan kamu memiliki izin sebelum melakukan audit keamanan pada sistem pihak ketiga**
